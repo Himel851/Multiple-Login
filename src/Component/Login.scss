@@ -1,0 +1,91 @@
+.login {
+  width: 600px;
+  height: 760px;
+  margin-top: 10px;
+  margin-left: -100px;
+  background: #ffffff;
+  box-shadow: 1px -10px 25px rgba(201, 201, 201, 0.25),
+    -1px 10px 25px rgba(147, 147, 147, 0.25);
+  text-align: center;
+  position: relative;
+  h1 {
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 200px;
+    top: 128px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .form {
+    position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 100px;
+    top: 252px;
+    font-family: "Inter";
+    ::placeholder {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #b4b4b4;
+    }
+    .inp {
+      width: 368.5px;
+      border: none;
+      border-bottom: 1px solid #000;
+      padding: 5px 10px;
+      outline: none;
+      margin-bottom: 50px;
+    }
+    Button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 20px;
+      gap: 10px;
+      position: absolute;
+      width: 104px;
+      height: 49px;
+      left: 109px;
+      top: 224px;
+      background: #1678cb;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 15px;
+    }
+    Button:hover {
+      background: #fff;
+      color: #1678cb;
+    }
+  }
+  p {
+    position: absolute;
+    width: 250px;
+    height: 5px;
+    left: 200px;
+    top: 650px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #7e7e7e;
+    span {
+      margin-left: 10px;
+      color: #1678cb;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      text-decoration-line: underline;
+    }
+  }
+}

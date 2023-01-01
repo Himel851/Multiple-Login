@@ -1,0 +1,71 @@
+.signUp {
+  .form {
+    position: absolute;
+    margin-top: 270px;
+    .inp {
+      width: 368.5px;
+      border: none;
+      border-bottom: 1px solid #000;
+      padding: 5px 10px;
+      outline: none;
+      margin-bottom: 50px;
+    }
+    ::placeholder {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #b4b4b4;
+    }
+    .page3 {
+      margin-left: 100px;
+    }
+    .disable {
+      width: 80px;
+      border: none;
+      background: none;
+      margin-right: 10px;
+      border-bottom: 1px solid #000;
+      padding: 5px 10px;
+      outline: none;
+      margin-bottom: 50px;
+    }
+    .page2 {
+      width: 288.5px !important;
+    }
+  }
+  .already {
+    p {
+      position: absolute;
+      width: 250px;
+      height: 5px;
+      left: 200px;
+      top: 650px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 15px;
+      color: #7e7e7e;
+      span {
+        margin-left: 10px;
+        color: #1678cb;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration-line: underline;
+      }
+    }
+  }
+  .error {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #7e7e7e;
+  }
+}
